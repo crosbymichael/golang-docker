@@ -5,4 +5,4 @@ RUN curl -s https://go.googlecode.com/files/go1.2.1.linux-amd64.tar.gz | tar -v 
 
 ENV GOPATH /go
 ENV GOROOT /usr/local/go
-ENV PATH $PATH:/usr/local/go/bin
+ENV PATH $PATH:/usr/local/go/bin:/go/bin
